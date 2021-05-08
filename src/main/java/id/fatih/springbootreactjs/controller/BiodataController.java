@@ -20,6 +20,6 @@ public class BiodataController {
 
     @GetMapping("/geterror")
     public DefaultResponse <BiodataDto> getBiodataError(){
-        return DefaultResponse.error("data sudah ada di aplikasi");
+        return DefaultResponse.error("data hilang");
     }
 }
