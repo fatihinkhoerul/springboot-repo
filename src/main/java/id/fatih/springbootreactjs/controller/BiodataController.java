@@ -14,7 +14,7 @@ public class BiodataController {
     public DefaultResponse <BiodataDto> getBiodata (){
         BiodataDto biodataDto = new BiodataDto();
         biodataDto.setNama("alfath");
-        biodataDto.setAlamat("bandung");
+        biodataDto.setAlamat("kebumen");
         return DefaultResponse.ok(biodataDto);
     }
 
